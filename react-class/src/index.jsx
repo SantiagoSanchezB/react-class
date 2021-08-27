@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/headerComponent';
-import Estudiante from './components/Estudiante';
 import Footer from './components/footerComponent';
 import Contenedor from './components/Contenedor';
 
