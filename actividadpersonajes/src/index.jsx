@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Header from './components/headerComponent';
-import Footer from './components/footerComponent';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import Contenedor from './components/Contenedor';
 
 ReactDOM.render(

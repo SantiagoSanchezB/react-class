@@ -1,0 +1,14 @@
+.Element {
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+ }
+
+.aling {
+    width: 100px;
+    float: right;
+}
+
+ .pos{
+    right: 5px;
+} 
