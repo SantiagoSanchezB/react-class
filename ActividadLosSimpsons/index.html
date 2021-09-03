@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los simpsons</title>
+    <script src="main.js" type="text/Javascript"></script>
+    <script src="functions.js" type="text/Javascript"></script>
+</head>
+
+<body>
+    <button onclick="cargarDatos()">Cargar Datos</button>
+    <table border="" id="tablaDatos">
+        <thead>
+            <tr>
+                <th>Nombre Personaje</th>
+                <th>Edad Personaje</th>
+                <th>Numero Parientes</th>
+                <th>Color Cabello</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    <hr>
+
+    <label>Digite el nombre:</label>
+    <input type="text" name="nombre" id="nombre" required>
+    <br><br>
+    <label>Digite el color de cabello:</label>
+    <input type="text" name="color" id="color" required>
+    <br>
+    <br>
+    <button onclick="buscarNombre()">Buscar</button>
+    <button onclick="buscarParientes()">Buscar Parientes</button>
+    <button onclick="buscarColorCabello()">Buscar Color Cabello</button>
+
+</body>
+
+</html>
