@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/index_css.css';
 
 const Header = () => (
     <div className = "">
@@ -11,6 +12,7 @@ const Header = () => (
                 </form>
             </div>
         </nav>
+        <h1 class="Name">Plunderer</h1>
     </div>
 );
 
