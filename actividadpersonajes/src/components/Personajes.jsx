@@ -4,7 +4,7 @@ import '../css/index_css.css';
 import Imagenes from '../img/Imagenes';
 
 const Personajes = ({nombre, edad, count, especie,img}) => (
-    <div className="card">
+    <div className="card">  
         <div class="card-body">
             <img class="aling pos img-fluid rounded-circle" src={img}/>
             <h5 class="card-title">{nombre}</h5>
