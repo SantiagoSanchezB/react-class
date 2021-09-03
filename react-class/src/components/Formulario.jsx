@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import '../css/index_css.css';
 
 class Formulario extends Component{
     constructor (props){
@@ -26,7 +27,7 @@ class Formulario extends Component{
 
     render(){
         return(
-            <div id="Elemento">
+            <div id="Elemento" class="Element">
                 <h1>Formulario</h1>
                 <form action="">
                     <label htmlFor="">Nombre</label>
@@ -35,16 +36,15 @@ class Formulario extends Component{
                             nombre: i.target.value
                         })
                     }/>
-                    <div id="emailHelp" class="form-text">{`Nombre: ${this.state.nombre}`}</div><br/>
-
+                    <div id="emailHelp" class="form-text">{`Nombre ${this.state.nombre}`}</div>
+                    <hr class="dropdown-divider name"/>
                     <label htmlFor="">Apellido</label>
                     <input class="form-control name" type="text" name="apellido" placeholder="Ingrese el nombre" onChange={
                         (i) => this.setState({
                             apellido: i.target.value
                         })
                     }/>
-                    <div id="emailHelp" class="form-text">{`Apellido: ${this.state.apellido}`}</div><br/>
-                    <hr class="dropdown-divider name"/>
+                    <div id="emailHelp" class="form-text">{`Apellido ${this.state.apellido}`}</div><br/>
                     <input class="btn btn-success" type="submit" value="Enviar"/>
                 </form>
             </div>
