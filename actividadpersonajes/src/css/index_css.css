@@ -4,6 +4,13 @@
     padding-right: 5%;
  }
 
+
+ .Element-p{
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+ }
+
 .aling {
     width: 100px;
     float: right;
@@ -17,3 +24,4 @@
     padding-left: 5%;
     left: 2%;
 }
+

@@ -2,7 +2,7 @@ import React from 'react';
 import logoGit from'../github.svg';
 
 const Footer = () => (
-    <div>
+    <div class="footer position-fixed w-100 bottom-0">
         <footer class="d-flex flex-wrap justify-content-between py-3 border-top">
             <div class="col-md-4 d-flex align-items-center">
                 <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"/>
