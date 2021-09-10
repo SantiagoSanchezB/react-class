@@ -1,10 +1,9 @@
 import React from 'react';
-import Estudiante from './Estudiante';
 import Header from './headerComponent';
 import '../css/index_css.css';
 import Footer from './footerComponent';
 
-const Estudiantes = [
+const estudiantes = [
     {
         "id":1,
         "nombre": "Juan Roa",
@@ -49,14 +48,30 @@ const Estudiantes = [
     }
 ]
 
-const Contenedor = () => (
-    <>
+
+const EstudianteDestalle = ({match}) => {
+    const estudiante = estudiantes.filter(c => c.id === parseInt(match.params.id))[0];
+    return(
+        <>
         {
-            Estudiantes.map(S => <Estudiante nombre= {S.nombre} edad ={S.edad} genero={S.genero} id={S.id}/>)
-        }
+            estudiante ? (
+                <div class = "Element">
+                    <div className="card">
+                        <div class="card-body">
+                            <h5 class="card-title">{estudiante.nombre}</h5>
+                            <p class="card-text">Edad: {estudiante.edad}</p>
+                            <p class="card-text">Genero: {estudiante.genero}</p>
+                            <p class="card-text">Grado: {estudiante.grado}</p>
+                        </div>
+                    </div>
+                </div>
+            ):
+                <h1>El id No esta registrado</h1>
+            }
+            <a href={`/Estudiantes`} class="btn btn-dark">Ver todos</a>
         <Footer/>
-    </>
-);
+        </>
+    );  
+};
 
-export default Contenedor;
-
+export default EstudianteDestalle;

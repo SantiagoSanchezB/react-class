@@ -2,14 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import '../css/index_css.css';
 import Header from './headerComponent';
+import { Link } from 'react-router-dom';
 
-const Estudiante = ({nombre, edad, genero}) => (
+const Estudiante = ({nombre, edad, genero, id}) => (
     <div class = "Element">
         <div className="card">
             <div class="card-body">
                 <h5 class="card-title">{nombre}</h5>
                 <p class="card-text">Edad: {edad}</p>
                 <p class="card-text">Genero: {genero}</p>
+                <p><Link to={`/Estudiantes/${id}`}>Detalle</Link></p>
             </div>
         </div>
     </div>
