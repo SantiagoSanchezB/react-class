@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Fragment } from 'react';
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Contenedor from './components/Contenedor';
 import Contacto from './components/Contacto';
 import Header from './components/headerComponent';
