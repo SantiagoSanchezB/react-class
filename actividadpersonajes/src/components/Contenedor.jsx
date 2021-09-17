@@ -1,7 +1,7 @@
 import React from 'react';
 import Personajes from './Personajes';
 import Imagenes from '../img/Imagenes';
-import Footer from './Footer';
+import Footer_A from './Footer_A';
 
 const Personaje = [
     {
@@ -59,7 +59,7 @@ const Contenedor = () => (
         {
             Personaje.map(S => <Personajes nombre= {S.nombre} edad ={S.edad} count={S.count} especie={S.especie} img={S.img} id={S.id}/>)
         }
-        <Footer/>
+        <Footer_A/>
     </>
 );
 
