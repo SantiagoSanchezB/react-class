@@ -3,6 +3,7 @@ import Estudiante from './Estudiante';
 import Header from './headerComponent';
 import '../css/index_css.css';
 import Footer from './footerComponent';
+import Footer_A from './footerComponent_A';
 
 const Estudiantes = [
     {
@@ -54,7 +55,7 @@ const Contenedor = () => (
         {
             Estudiantes.map(S => <Estudiante nombre= {S.nombre} edad ={S.edad} genero={S.genero} id={S.id}/>)
         }
-        <Footer/>
+        <Footer_A/>
     </>
 );
 
