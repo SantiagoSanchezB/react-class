@@ -6,6 +6,7 @@ import Contenedor from './components/Contenedor';
 import Header from './components/Header';
 import PersonajeDetalle from './components/PersonajeDetalle';
 import MainMenu from './components/MainMenu';
+import Contacto from './components/Contacto';
 
 const App = () => (
   <Router> 
@@ -14,6 +15,7 @@ const App = () => (
         <Route path="/" exact component={MainMenu}/>
         <Route path="/Personajes" exact component={ Contenedor }/>
         <Route path="/Personajes/:id" exact component={ PersonajeDetalle }/>
+        <Route path="/Contacto" exact component={ Contacto }/>
         <Route component={() =>(
           <h1>Pagina no encontrada</h1>
         )} />
