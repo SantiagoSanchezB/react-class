@@ -25,3 +25,14 @@
     left: 2%;
 }
 
+.aling img{
+    width: 150px;
+    float: right;
+}
+ .pos img{
+    right: 5px;
+} 
+
+.footer{
+    padding-top: 2%;
+}
