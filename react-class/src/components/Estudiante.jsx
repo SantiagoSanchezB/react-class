@@ -11,7 +11,7 @@ const Estudiante = ({nombre, edad, genero, id}) => (
                 <h5 class="card-title">{nombre}</h5>
                 <p class="card-text">Edad: {edad}</p>
                 <p class="card-text">Genero: {genero}</p>
-                <p><Link to={`/Estudiantes/${id}`}>Detalle</Link></p>
+                <p><Link to={`/Estudiantes/${id}`} class="btn btn-outline-secondary">Detalle</Link></p>
             </div>
         </div>
     </div>
