@@ -12,6 +12,13 @@
    width: 40%;
 }
 
-.btn{
-   left: 10%;
+.Index p{
+   padding-top: 0.5%;
+   padding-left: 5%;
+   padding-right: 5%;
+   font-size: 25px;
+}
+
+.logo{
+   width: 550px;
 }
