@@ -9,11 +9,10 @@ import EstudianteDestalle from './components/EstudianteDetalle';
 import MainMenu from './components/MainMenu';
 
 const App = () => (
-  <Router> 
+  <Router>
     <Header/>
-    <MainMenu/>
     <Switch>
-        <Route path="/" exact component={ Header }/>
+        <Route path="/" exact component={ MainMenu }/>
         <Route path="/Estudiantes" exact component={ Contenedor }/>
         <Route path="/Estudiantes/:id" exact component={ EstudianteDestalle }/>
         <Route path="/Contacto" exact component={ Contacto }/>
