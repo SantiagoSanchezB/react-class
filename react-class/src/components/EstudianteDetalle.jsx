@@ -67,7 +67,9 @@ const EstudianteDestalle = ({match}) => {
             ):
                 <h1>El id No esta registrado</h1>
             }
-            <a href={`/Estudiantes`} class="btn btn-dark">Ver todos</a>
+            <div class = "Element">
+                <a class="btn btn-dark" href={`/Estudiantes`} >Ver todos</a>
+            </div>
         <Footer/>
         </>
     );  
