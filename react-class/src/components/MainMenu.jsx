@@ -1,12 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import '../css/index_css.css';
+import logo from '../logo.svg';
+import Footer from './footerComponent';
 
 const MainMenu = () => (
-    <ul>
-        <li><NavLink exact to="/">Home</NavLink></li>
-        <li><NavLink exact to="/Estudiantes">Estudiantes</NavLink></li>
-        <li><NavLink exact to="/Contacto">Contacto</NavLink></li>
-    </ul>
+    <div class="Index">
+        <p>Proyecto React - ficha 2242742 - David Sanchez</p>
+        <img class="logo" src={logo} />
+        <Footer/>
+    </div>
 )
 
 export default MainMenu;
