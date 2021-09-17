@@ -12,10 +12,13 @@ const Header = () => (
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="/">Inicio</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/Personajes">Personajes</a>
+                        <a class="nav-link" href="/Personajes">Personajes</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="/Contacto">Contacto</a>
                     </li>
                 </ul>
                 </div>

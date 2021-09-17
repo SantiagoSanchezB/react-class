@@ -5,8 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 const MainMenu = () => (
     <ul class="Element">
-        <li><NavLink exact to="/">Home</NavLink></li>
-        <li><NavLink exact to="/Personajes">Personajes</NavLink></li>
+        <p>Actividad Personajes - 2242742 - David Sanchez</p>
     </ul>
 )
 

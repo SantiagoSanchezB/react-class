@@ -66,14 +66,16 @@ const DetallePersonaje = ({match}) =>{
         <> 
             {
                 personaje ? (
-                    <div class="Element" className="card">  
-                        <div class="card-body">
-                            <img class="aling pos img-fluid rounded-circle" src={personaje.img}/>
-                            <h5 class="card-title">{personaje.nombre}</h5>
-                            <p class="card-text">Edad: {personaje.edad}</p>
-                            <p class="card-text">Count: {personaje.count}</p>
-                            <p class="card-text">Especie: {personaje.especie}</p>
-                            <p class="card-text">Arma: {personaje.Arma}</p>
+                    <div class="Element" >  
+                        <div className="card">
+                            <div class="card-body">
+                                <img class="aling pos img-fluid rounded-circle" src={personaje.img}/>
+                                <h5 class="card-title">{personaje.nombre}</h5>
+                                <p class="card-text">Edad: {personaje.edad}</p>
+                                <p class="card-text">Count: {personaje.count}</p>
+                                <p class="card-text">Especie: {personaje.especie}</p>
+                                <p class="card-text">Arma: {personaje.Arma}</p>
+                            </div>
                         </div>
                     </div>
                 ):
