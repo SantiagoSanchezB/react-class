@@ -7,6 +7,7 @@ import Header from './components/Header';
 import PersonajeDetalle from './components/PersonajeDetalle';
 import MainMenu from './components/MainMenu';
 import Contacto from './components/Contacto';
+import DatosApi from './components/Molecules/DatosApi';
 
 const App = () => (
   <Router> 
@@ -16,6 +17,7 @@ const App = () => (
         <Route path="/Personajes" exact component={ Contenedor }/>
         <Route path="/Personajes/:id" exact component={ PersonajeDetalle }/>
         <Route path="/Contacto" exact component={ Contacto }/>
+        <Route path="/API" exact component={DatosApi}/>
         <Route component={() =>(
           <h1>Pagina no encontrada</h1>
         )} />
