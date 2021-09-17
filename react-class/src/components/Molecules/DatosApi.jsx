@@ -34,7 +34,7 @@ class DatosApi  extends Component{
     // }
 
     render(){
-        const {posts} = this .state;
+        const {posts} = this.state;
         return(
             <>
                 <div>
