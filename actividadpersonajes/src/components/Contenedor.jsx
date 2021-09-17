@@ -59,7 +59,7 @@ const Contenedor = () => (
         {
             Personaje.map(S => <Personajes nombre= {S.nombre} edad ={S.edad} count={S.count} especie={S.especie} img={S.img} id={S.id}/>)
         }
-        <Footer_A/>
+        <Footer_A class="footer"/>
     </>
 );
 
