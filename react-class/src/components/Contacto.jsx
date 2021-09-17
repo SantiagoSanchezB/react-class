@@ -7,7 +7,6 @@ import Footer from './footerComponent';
 
 const Contacto = () => (
     <>
-        <Header/>
         <Formulario/>
         <Footer/> 
     </>
