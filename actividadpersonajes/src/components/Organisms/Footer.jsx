@@ -1,5 +1,5 @@
 import React from 'react';
-import logoGit from'../github.svg';
+import logoGit from'../../assets/img/github.svg';
 
 const Footer = () => (
     <div class="footer position-fixed w-100 bottom-0">

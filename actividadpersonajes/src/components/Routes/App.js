@@ -1,13 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
 import { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Contenedor from './components/Contenedor';
-import Header from './components/Header';
-import PersonajeDetalle from './components/PersonajeDetalle';
-import MainMenu from './components/MainMenu';
-import Contacto from './components/Contacto';
-import DatosApi from './components/Molecules/DatosApi';
+import Contenedor from '../Molecules/Contenedor';
+import Header from '../Organisms/Header';
+import PersonajeDetalle from '../Pages/PersonajeDetalle';
+import MainMenu from '../Pages/MainMenu';
+import Contacto from '../Molecules/Contacto';
+import DatosApi from '../Molecules/DatosApi';
 
 const App = () => (
   <Router> 

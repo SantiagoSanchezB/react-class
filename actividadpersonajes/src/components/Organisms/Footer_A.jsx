@@ -1,5 +1,5 @@
 import React from 'react';
-import logoGit from'../github.svg';
+import logoGit from'../../assets/img/github.svg';
 
 const Footer_A = () => (
     <div class="footer">

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
-import '../../css/index_css.css';
-import Footer_A from '../Footer_A';
+import '../../assets/css/index_css.css';
+import Footer_A from '../Organisms/Footer_A';
 import axios from 'axios';
 
 class DatosApi  extends Component{

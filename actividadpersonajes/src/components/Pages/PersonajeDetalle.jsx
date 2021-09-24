@@ -1,7 +1,7 @@
 import React from 'react';
-import '../css/index_css.css';
-import Footer from './Footer';
-import Imagenes from '../img/Imagenes';
+import '../../assets/css/index_css.css';
+import Footer from '../Organisms/Footer';
+import Imagenes from '../Molecules/Imagenes';
 
 const personajes = [
     {
