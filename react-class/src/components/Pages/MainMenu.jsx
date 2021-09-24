@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import '../css/index_css.css';
-import logo from '../logo.svg';
-import Footer from './footerComponent';
+import '../../assets/css/index_css.css';
+import logo from '../../logo.svg';
+import Footer from '../Organisms/footerComponent';
 
 const MainMenu = () => (
     <div class="Index">

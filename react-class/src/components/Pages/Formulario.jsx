@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../css/index_css.css';
+import '../../assets/css/index_css.css';
 
 class Formulario extends Component{
     constructor (props){

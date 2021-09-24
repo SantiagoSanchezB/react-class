@@ -1,9 +1,9 @@
 import React from 'react';
-import Estudiante from './Estudiante';
-import Header from './headerComponent';
-import '../css/index_css.css';
-import Footer from './footerComponent';
-import Footer_A from './footerComponent_A';
+import Estudiante from '../Pages/Estudiante';
+import Header from '../Organisms/headerComponent';
+import '../../assets/css/index_css.css';
+import Footer from '../Organisms/footerComponent';
+import Footer_A from '../Organisms/footerComponent_A';
 
 const Estudiantes = [
     {

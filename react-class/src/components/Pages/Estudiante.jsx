@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../css/index_css.css';
-import Header from './headerComponent';
+import '../../assets/css/index_css.css';
+import Header from '../Organisms/headerComponent';
 import { Link } from 'react-router-dom';
 
 const Estudiante = ({nombre, edad, genero, id}) => (
